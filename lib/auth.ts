@@ -1,7 +1,7 @@
 // Allowed emails and passwords
 const ALLOWED_USERS = [
   { email: 'm7mdrf3t0@gmail.com', password: 'admin123' },
-  { email: 'Hosammagy1414@gmail.com', password: 'admin123' },
+  { email: 'Hosammagdy1414@gmail.com', password: 'admin123' },
   // Add more users as needed
 ]
 
