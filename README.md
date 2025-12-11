@@ -116,3 +116,19 @@ Files are stored in Supabase Storage and can be downloaded directly from the int
 
 If you already have the `documents` table without file fields, run `supabase-migration-add-files.sql` to add the file columns.
 
+## Deployment to Google Cloud
+
+This application is ready to deploy to Google Cloud Run. See `DEPLOY.md` for detailed deployment instructions.
+
+### Quick Deploy
+
+1. Install Google Cloud SDK and Docker
+2. Run the deployment script:
+```bash
+./deploy.sh
+```
+
+3. Set environment variables in Cloud Run console or via CLI
+
+For detailed instructions, see [DEPLOY.md](./DEPLOY.md)
+
